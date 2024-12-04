@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "celery-sqlcommenter"
+version = "0.1.0"
+description = "instrument sql queries running on celery"
+authors = ["Yash Kumar Verma <yk.verma2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+celery = "^5.2.0"
+django = "^2.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
