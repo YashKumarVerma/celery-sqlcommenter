@@ -61,7 +61,7 @@ poetry add celery-sqlcommenter
 ```
 
 ## How does it look live?
-![a simple celery task that takes a while](https://private-user-images.githubusercontent.com/14032427/393391701-f024f48f-6e68-4830-ba68-5c85381bc639.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM1MTY2MTksIm5iZiI6MTczMzUxNjMxOSwicGF0aCI6Ii8xNDAzMjQyNy8zOTMzOTE3MDEtZjAyNGY0OGYtNmU2OC00ODMwLWJhNjgtNWM4NTM4MWJjNjM5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA2VDIwMTgzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhNWE5ODE5YzZmYTY4ZDAwMTE4MjU5ZjU1YTc0ZTBkODZlYWFiNjkyOGIwMzYzMDQ0NTcwMzk3ZDRlZjE3NzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-tHzhAV9Uciq-TBtqbCIvFlqXAZ-2oJNc94cmWPOHe8)
+![a simple celery task that takes a while](./docs/images/aws-rds-session-query.png)
 
 ## More Questions?
 Please open an issue or drop a message on my socials, will be happy to help.
