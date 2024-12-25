@@ -14,4 +14,4 @@ class BaseTask(Task):
                 stack.enter_context(
                     connections[db_alias].execute_wrapper(QueryWrapper(task_name))
                 )
-            self.run(*args, **kwargs)
+            return self.run(*args, **kwargs)
