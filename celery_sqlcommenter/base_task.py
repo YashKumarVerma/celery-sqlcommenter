@@ -1,5 +1,4 @@
 from contextlib import ExitStack
-
 from celery import Task
 from django.db import connections
 

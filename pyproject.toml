@@ -1,15 +1,16 @@
 [tool.poetry]
 name = "celery-sqlcommenter"
-version = "0.1.2"
+version = "0.1.3"
 description = "instrument sql queries running on celery"
 authors = ["Yash Kumar Verma <yk.verma2000@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8,<=3.14"
 celery = "^5.2.0"
 django = ">=2.2,<5.0"
+django-prometheus = "^2.4.1"
 
 
 [tool.poetry.group.test.dependencies]
